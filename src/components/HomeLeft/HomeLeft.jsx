@@ -11,7 +11,7 @@ const HomeLeft = () => {
         .then(data => setCafeDatas(data))
     },[])
     return (
-        <div className='w-[845px]'>
+        <div className='xl:w-[845px] lg:w-[580px]'>
            {
             cafeDatas.map(cafeData => <BlockCard
             key={cafeData.id}

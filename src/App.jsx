@@ -12,7 +12,7 @@ function App() {
 
      <div className='w-full border-t border-cafe-accent my-8'></div>
 
-      <div className='flex justify-between gap-6'>
+      <div className='flex justify-between md:gap-6'>
       <div>
       <HomeLeft></HomeLeft>
      </div>
